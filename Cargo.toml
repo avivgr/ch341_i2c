@@ -2,6 +2,15 @@
 name = "ch341_i2c"
 version = "0.1.0"
 edition = "2021"
+authors = ["Aviv Greenberg <avivgr@gmail.com>"]
+description = "embedded-hal I2c implementation for ch341"
+keywords = ["ch341", "usb", "io", "hal"]
+categories = ["embedded"]
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 libusb = "0.3"
+lazy_static = "1.4.0"
+embedded-hal = { version = "0.2.7", features = ["unproven"] }
+log = "0.4.17"
