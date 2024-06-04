@@ -31,7 +31,7 @@ See full lsusb output ![here](assets/lsusb.txt)
 
 ## Requirements
 
-You need to have libusb libraries installed in your system (e.g `sudo apt install libusb-1.0-0`)
+You need to have libusb libraries installed in your system (e.g `sudo apt install libusb-1.0-0 libusb-1.0-0-dev`)
 
 ## Udev rules
 
